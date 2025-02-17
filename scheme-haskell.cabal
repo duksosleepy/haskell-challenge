@@ -22,6 +22,6 @@ executable scheme-haskell
     main-is:          Main.hs
     -- other-modules:
     -- other-extensions:
-    build-depends:    base ^>=4.17.2.1
+    build-depends:    base ^>=4.17.2.1, parsec
     hs-source-dirs:   app
-    default-language: GHC2024
+    default-language: GHC2021
